@@ -7,7 +7,7 @@
 Strem.io Discover MoviesBox TV 
 
 <p align="center">
-<img src="demo.png" width="250" height="445">
+<img src="demo.png" width="250" height="541">
 </p>
 
 ### Features App :
