@@ -1,4 +1,4 @@
 # AppList
 
-* [TikSaver](https://apps.apple.com/us/app/id1564622710)
+* [TikVideoCast](https://apps.apple.com/us/app/id1564622710)
 
