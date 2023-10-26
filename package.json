@@ -1,36 +1,16 @@
 {
-  "name": "@artsy/eigen-web-association",
-  "version": "1.6.0",
-  "description": "A tiny app that serves the apple-app-site-association required for iOS Handoff related features.",
-  "main": "app.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test.js",
-    "start": "node server.js",
-    "release": "auto shipit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/artsy/artsy-eigen-web-association.git"
-  },
-  "author": {
-    "name": "Eloy Durán",
-    "email": "eloy.de.enige@gmail.com"
-  },
+  "name": "SampleExpoWeb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/modsoussi/SampleExpoWeb.git",
+  "author": "Mohamed Soussi <mohameddsoussi@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/artsy/artsy-eigen-web-association/issues"
+  "scripts": {
+    "start": "next build && next start -p $PORT"
   },
-  "homepage": "https://github.com/artsy/artsy-eigen-web-association",
   "dependencies": {
-    "express": "^4.15.0"
-  },
-  "devDependencies": {
-    "@artsy/auto-config": "^1.1.0",
-    "mocha": "^3.3.0",
-    "supertest": "^3.0.0"
+    "next": "^9.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
